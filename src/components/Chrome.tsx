@@ -62,7 +62,7 @@ export function Footer() {
           <Crescent className="size-4" />
           {brand.wordmark} · a concept
         </span>
-        <span>© {new Date().getFullYear()} Vivek Dandotiya · Lunar Expeditions Concept</span>
+        <span>© {new Date().getFullYear()} Vivek Pandit · All Rights Reserved</span>
         <a href="#top" onClick={(e) => go(e)} className="hover:text-white">
           Back to the surface ↑
         </a>

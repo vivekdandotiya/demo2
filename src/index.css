@@ -120,3 +120,42 @@ html.lenis body {
     transform: translate3d(0, 12px, 0);
   }
 }
+
+@keyframes slide-left {
+  0% {
+    transform: translate3d(0, 0, 0);
+  }
+  100% {
+    transform: translate3d(-50%, 0, 0);
+  }
+}
+
+@keyframes slide-right {
+  0% {
+    transform: translate3d(-50%, 0, 0);
+  }
+  100% {
+    transform: translate3d(0, 0, 0);
+  }
+}
+
+.animate-slide-left {
+  display: flex;
+  width: max-content;
+  animation: slide-left 24s linear infinite;
+  will-change: transform;
+}
+
+.animate-slide-right {
+  display: flex;
+  width: max-content;
+  animation: slide-right 28s linear infinite;
+  will-change: transform;
+}
+
+@media (prefers-reduced-motion: reduce) {
+  .animate-slide-left,
+  .animate-slide-right {
+    animation: none;
+  }
+}

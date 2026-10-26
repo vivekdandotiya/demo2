@@ -17,8 +17,8 @@ export const nav = [
 ];
 
 export const hero = {
-  title: 'EARTHRISE',
-  kicker: 'A lunar expedition concept by Vivek',
+  title: 'VIVEK',
+  kicker: 'A lunar expedition concept by Vivek Pandit',
   site: 'Station Vivek · Mare Tranquillitatis · 0.67°N 23.47°E',
 };
 

@@ -1,5 +1,6 @@
 import {useEffect} from 'react';
 import {Footer, Header} from './components/Chrome';
+import {Creator} from './components/Creator';
 import {Earthrise} from './components/Earthrise';
 import {MissionLog} from './components/MissionLog';
 import {Missions} from './components/Missions';
@@ -21,6 +22,7 @@ export default function App() {
         <Trajectory />
         <Missions />
         <Reserve />
+        <Creator />
       </main>
       <Footer />
     </>
