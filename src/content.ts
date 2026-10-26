@@ -5,8 +5,8 @@
 
 export const brand = {
   name: 'Selene',
-  wordmark: 'SELENE',
-  email: 'crew@selene.space',
+  wordmark: 'SELENE · VIVEK',
+  email: 'vivek@selene.space',
 };
 
 export const nav = [
@@ -18,51 +18,51 @@ export const nav = [
 
 export const hero = {
   title: 'EARTHRISE',
-  kicker: 'A concept for lunar expeditions',
-  site: 'Mare Tranquillitatis · 0.67°N 23.47°E',
+  kicker: 'A lunar expedition concept by Vivek',
+  site: 'Station Vivek · Mare Tranquillitatis · 0.67°N 23.47°E',
 };
 
 export const intro = {
   eyebrow: 'Mission log',
-  heading: 'The first holiday that leaves the planet.',
-  body: 'Four days out, a week on the surface, and one view nobody has ever forgotten. This is the trip, frame by frame.',
+  heading: 'The journey that leaves the planet behind.',
+  body: 'Four days out across the dark, a week on the lunar plains, and one view nobody ever forgets. Experience the voyage, frame by frame.',
 };
 
 export const log = [
-  {tag: 'T−0', title: 'Launch', body: 'Nine minutes of thunder, then silence and the curve of the Earth.', image: '/media/cards/m1-launch.webp'},
-  {tag: 'Day 3', title: 'Lunar orbit', body: 'The far side scrolls past the window. Your hand on the glass.', image: '/media/cards/m2-orbit.webp'},
-  {tag: 'Day 4', title: 'Base Tranquillity', body: 'Pressurised domes, a hot meal, and a skylight pointed home.', image: '/media/cards/m3-base.webp'},
-  {tag: 'Day 5', title: 'First steps', body: 'Footprints that will outlast every building you have ever seen.', image: '/media/cards/m4-walk.webp'},
+  {tag: 'T−0', title: 'Launch', body: 'Nine minutes of thunder, then silence and the curved glow of the Earth.', image: '/media/cards/m1-launch.webp'},
+  {tag: 'Day 3', title: 'Lunar orbit', body: 'The far side scrolls past the window. Your reflection against the silent void.', image: '/media/cards/m2-orbit.webp'},
+  {tag: 'Day 4', title: 'Station Vivek', body: 'Pressurised habitats, a warm meal, and an observation deck pointed home.', image: '/media/cards/m3-base.webp'},
+  {tag: 'Day 5', title: 'First steps', body: 'Footprints in the undisturbed regolith that will outlast centuries.', image: '/media/cards/m4-walk.webp'},
 ];
 
 /** Legs of the Earth → Moon trajectory, in drawing order. */
 export const trajectory = {
   eyebrow: 'Trajectory',
-  heading: '384,400 km, drawn as you scroll.',
+  heading: '384,400 km, charted as you scroll.',
   legs: [
-    {day: 'Day 0', title: 'Parking orbit', body: 'Two laps of the Earth while the crew and craft are checked.'},
-    {day: 'Day 0', title: 'Trans-lunar injection', body: 'A six-minute burn and you are on your way. No turning back for three days.'},
-    {day: 'Day 3', title: 'Lunar orbit insertion', body: 'The engine fires behind the Moon, out of contact with Earth. Then: capture.'},
-    {day: 'Day 4', title: 'Descent', body: 'Twelve minutes from orbit to the dust of Tranquillity.'},
+    {day: 'Day 0', title: 'Parking orbit', body: 'Two checkout revolutions around Earth before systems green-light the burn.'},
+    {day: 'Day 0', title: 'Trans-lunar injection', body: 'A high-thrust ignition casts the ship into the cislunar corridor.'},
+    {day: 'Day 3', title: 'Lunar orbit insertion', body: 'Retrofire on the far side in radio blackout. Gravitational capture achieved.'},
+    {day: 'Day 4', title: 'Terminal descent', body: 'Twelve powered minutes down to the dust of Station Vivek.'},
   ],
 };
 
 export const missions = {
-  eyebrow: 'Missions',
-  heading: 'Three ways to leave.',
-  note: 'Concept missions — durations illustrative.',
+  eyebrow: 'Expedition Classes',
+  heading: 'Three ways to touch the void.',
+  note: 'Concept missions — curated flight profiles.',
   items: [
     {name: 'Orbiter', days: 6, lines: ['Two lunar orbits', 'Far-side flyover', 'Earthrise from orbit'], cta: 'Join the Orbiter list'},
-    {name: 'Lander', days: 10, lines: ['Four nights at Base Tranquillity', 'Two surface EVAs', 'Earthrise from the surface'], cta: 'Join the Lander list', featured: true},
-    {name: 'Resident', days: 28, lines: ['A full lunar day and night', 'Rover traverse to the highlands', 'Science crew rotation'], cta: 'Join the Resident list'},
+    {name: 'Lander', days: 10, lines: ['Four nights at Station Vivek', 'Two surface EVAs', 'Earthrise from the surface'], cta: 'Join the Lander list', featured: true},
+    {name: 'Resident', days: 28, lines: ['A full lunar day and night', 'Highland traverse excursion', 'Science crew rotation'], cta: 'Join the Resident list'},
   ],
 };
 
 export const reserve = {
-  eyebrow: 'Reserve',
-  heading: 'Put your name on the manifest.',
-  body: 'No payment, no commitment. We’ll write when the next window opens.',
+  eyebrow: 'Manifest',
+  heading: 'Reserve your place in the stars.',
+  body: 'No payment, no commitment. We will notify you when flight windows open.',
   /** Illustrative launch window for the countdown (the Apollo 11 anniversary). */
   window: '2031-07-20T20:17:00Z',
-  windowLabel: 'Next launch window (concept)',
+  windowLabel: 'Next launch window (Vivek-1)',
 };
